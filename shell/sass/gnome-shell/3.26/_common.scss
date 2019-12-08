@@ -1835,6 +1835,10 @@ $extra_spacing: 2.5px;
     url("assets/window-close.svg"),
     url("resource:///org/gnome/shell/theme/assets/window-close.svg"));
   background-size: 32px;
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  border-radius: 0;
   &:hover {
     background-image:
       if($gdm == false,
